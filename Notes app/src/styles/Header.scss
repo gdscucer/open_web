@@ -1,0 +1,20 @@
+.header{
+  width: 100%;
+  text-align: center;
+  background-color: #847cce;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  padding: 1%;
+  font-size: xx-large;
+  font-weight:bold;
+
+  p{
+    display: flex;
+    svg{
+      transition: transform .2s;
+    }
+    svg:hover{
+      transform: scale(1.2);
+    }
+  }
+}
