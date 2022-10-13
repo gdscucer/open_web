@@ -1,0 +1,20 @@
+{
+  "name": "ployglot-js",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "coverage": "vitest --coverage",
+    "test:ui": "vitest --ui",
+    "test:run": "vitest run"
+  },
+  "devDependencies": {
+    "@vitest/ui": "latest",
+    "c8": "^7.11.0",
+    "happy-dom": "^2.28.0",
+    "vite": "^2.7.2",
+    "vitest": "^0.2.0"
+  }
+}
