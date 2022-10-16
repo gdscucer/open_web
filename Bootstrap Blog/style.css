@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand
+{
+    font-family: 'Secular One', sans-serif;
+}
+
+.navbar{
+    position:fixed;
+    width:100%;
+    z-index: 1000000;
+    top:0;
+}
+
+.techverse
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog
+{
+    margin-left: -15px;
+}
+
+.logo
+{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+
+.carousel
+{
+    margin-top: 56px;
+}
+
+#aboutContainer
+{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.mt-auto
+{
+    height: 10vh;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.social
+{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.social-link
+{
+    padding: 3px;
+    transition: transform 0.5s;
+}
+
+.social-link :hover
+{
+    transform: scale(1.5);
+}
+
+footer div.col-sm-4
+{
+    padding: 3px;
+}
+
+.footer-text
+{
+    margin: 0;
+    padding: 15px;
+}
+
+.fa-solid
+{
+    padding: 7px;
+}
+
+.contact-form
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.submit-button
+{
+    margin: 10px 0;
+}
+
+.cust-foot
+{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-modal
+{
+    /* margin-top: 20vh; */
+    /* position: absolute; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    z-index: 1000001;
+}
